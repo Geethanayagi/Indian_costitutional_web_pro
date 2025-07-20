@@ -8,7 +8,7 @@ app.use(cors());
 app.use(express.json());
 
 // MongoDB Atlas Connection
-const uri = "mongodb+srv://Kaviya:jeni@sih.umf1h.mongodb.net/articles?retryWrites=true&w=majority&appName=sih";
+const uri = " ";
 mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => console.log('MongoDB connected'))
   .catch((err) => console.error(err));
