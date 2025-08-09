@@ -40,7 +40,6 @@ A secondary platform tracks user progress similar to **Duolingo**, allowing lear
 
 **Backend:**
 - [Node.js](https://nodejs.org/) with Express.js — API services
-- JWT Authentication
 
 **Database:**
 - [MongoDB](https://www.mongodb.com/) — Unstructured data storage
